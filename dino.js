@@ -40,6 +40,7 @@ class Player {
         this.dy = 0;
         this.jumpForce = 25;
         this.originalHeight = h;
+        this.originalWidth = w;
         this.grounded = false;
         this.jumpTimer = 0;
 
@@ -55,9 +56,11 @@ class Player {
         // skrceni
         if (keys['ShiftLeft'] || keys['KeyS']) {
             this.h = this.originalHeight / 2;
+            this.w = this.originalWidth / 2;
 
         } else{
             this.h = this.originalHeight;
+            this.w = this.originalWidth
         }
         
         this.y += this.dy;
