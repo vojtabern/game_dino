@@ -83,11 +83,11 @@ class Player {
             this.dy = -this.jumpForce;
 
         }
-        else if (this.jumpTimer > 0 && this.jumptimer < 15){
+        /*else if (this.jumpTimer > 0 && this.jumptimer < 15){
             this.jumpTimer++;
             this.dy = -this.jumpForce - (this.jumpTimer/50);
 
-        }
+        }*/
 
     }
     Draw () {  

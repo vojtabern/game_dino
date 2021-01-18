@@ -10,12 +10,11 @@
     color: white;
     padding: 5px;
 }
-/*.pozadi{
-    background-image: url("images/pozadi.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}Zde background image*/
+#nadpis{
+    text-align: center;
+    color: white;
+}
+
 .pisani{
     align-items: center;
     padding: 10px;
